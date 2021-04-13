@@ -1,0 +1,58 @@
+{
+  "name": "invoicesML",
+  "description": "Process PDF invoices with UiPath Machine Learning.",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.DocumentUnderstanding.ML.Activities": "[1.7.0]",
+    "UiPath.Excel.Activities": "[2.10.3-preview]",
+    "UiPath.IntelligentOCR.Activities": "[4.13.0]",
+    "UiPath.Mail.Activities": "[1.10.3-preview]",
+    "UiPath.OmniPage.Activities": "[1.7.1]",
+    "UiPath.System.Activities": "[21.4.0-preview]",
+    "UiPath.UIAutomation.Activities": "[21.4.1-preview]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "21.4.0.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "16ef152c-9815-4595-87bd-e9a424439d82",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
